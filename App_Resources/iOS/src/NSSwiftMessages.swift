@@ -7,6 +7,7 @@ public class NSCSwiftMessages: NSObject {
 
     @objc public var onDoneCallBack: ((String)-> Void)? = nil;
 
+    @MainActor
     public func showMessage(title: String, body: String) {
 
 
